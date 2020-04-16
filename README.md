@@ -15,4 +15,4 @@ Encontrarás:
 #### Archivo **HTML**, dentro también estará **SASS**(Casi lo mismo que el css).
 ![Imagen de referente](imagenes/cssMisitio.png)
 #### Carpeta con las imágenes
-![Imagen de referente](imagenes/imagenes.png)
+![Imagen de referente](imagenes/htmlTest.png)
