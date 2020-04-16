@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/*///////////////////////////// BODY ////////////////////////////*/
+
+body{
+	background-color: #bbbbbb;
+	background-image: url("media/CONTROLES.jpg");  
+	background-size: 1400px 700px; 
+	background-position: 0px 50px;
+}
+
+/*///////////////////////////// HEADER ////////////////////////////*/
+
+header{	
+	width: 1250px;	
+	background-color: #ffffff;
+	overflow:hidden;
+	margin: auto;	
+}
+header h1{	
+	font-size: 30px;
+	text-align: center;
+	margin: 20px auto;
+	color: #2b4d97;
+	font-family: Cambria;
+	font-weight: bold;
+}
+header div{
+	overflow:hidden;
+	color: #2b4d97;
+}
+header div h2{
+	float: left;
+	font-size: 20px;
+	margin:4px 100px;
+}
+header div h3{
+	float: right;
+	font-size: 20px;
+	margin:4px 100px;
+}
+/*///////////////////////////// MENU ////////////////////////////*/
+
+nav{
+	width: 1250px;
+	margin: auto;
+	overflow:hidden;	
+	color: #ffffff;
+	background-color: #2b4d97;
+	font-family: Calibri;
+	font-weight: bold;
+}
+nav ul{
+	list-style:none;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;	
+}
+nav ul li{
+	float:left;
+}
+nav ul li a {
+	color:#ffffff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;	
+	font-size: 18px;
+}
+nav ul li a:hover {
+	background-color:#385aa4;
+	color:#ffffff;
+}
+
+/*///////////////////////////// MAIN ////////////////////////////*/
+
+main{
+	width: 1250px;
+	margin: auto;
+	overflow:hidden;
+	background-color: #dddddd;
+	font-family: calibri;
+}
+main section{
+	width: 90%;
+	margin: 10px auto;
+	overflow:hidden;
+	background-color: #ffffff;
+}
+main section h4{
+	font-size: 18px;
+	margin:4px 50px;
+	color: #2b4d97;
+	font-weight: bold;
+}
+main section ol{
+	font-size: 18px;
+	margin:4px 50px;
+	color: #2b4d97;
+	font-weight: bold;
+}
+main section img{
+	margin: 10px auto;
+	display: block;
+	border-radius:20px
+}
+main section table{
+	min-width: 60%;
+	margin: 12px auto;
+	border-collapse:collapse;
+}
+main section table tr td{	
+	color: #333333;
+	font-size: 15px;
+	border: 1px solid #2b4d97;
+	font-family: Calibri;
+	padding: 5px 10px;
+}
+
+
+/*///////////////////////////// FOOTER ////////////////////////////*/
+
+footer{
+	width: 1250px;
+	margin: auto;
+	overflow:hidden;
+	background-color: #2b4d97;
+	text-align: center;
+}
+footer h6{
+	color: #ffffff;
+	font-family: Cambria;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	margin: 10px auto;
+}
